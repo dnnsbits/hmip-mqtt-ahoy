@@ -69,7 +69,7 @@ Topics konfigurieren
   * POWERMETER|VOLTAGE_TOPIC	__inverter/hm600/ch1/U_DC__
   * POWERMETER|VOLTAGE_EXTRACTOR	__ALL__
 
-bei Panel 2 ist der __ch1__ im Topic durch __ch2__ zu ersetzen
+* bei Panel 2 ist der __ch1__ im Topic durch __ch2__ zu ersetzen
 
 * Leistungsregler (Dimmer)
   * DIMMER|RANGE_MIN	__0.0__
@@ -78,8 +78,9 @@ bei Panel 2 ist der __ch1__ im Topic durch __ch2__ zu ersetzen
   * DIMMER|FEEDBACK_TOPIC	__inverter/hm600/ch0/active_PowerLimit__
   * DIMMER|EXTRACTOR	__ALL__
  
+## Anwendung
 
- 	 	 
+  * [(Fast)Nulleinspeisung](https://github.com/dnnsbits/hmip-mqtt-ahoy/blob/main/nulleinspeisung.md)
 
 
 
